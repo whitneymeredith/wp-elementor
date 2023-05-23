@@ -9,7 +9,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/dev/js/editor/component.js":
+/***/ ".build/assets/dev/js/editor/component.js":
 /*!*******************************************!*\
   !*** ./assets/dev/js/editor/component.js ***!
   \*******************************************/
@@ -20,7 +20,7 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
 
 /***/ }),
 
-/***/ "./assets/dev/js/editor/hello-editor.js":
+/***/ ".build/assets/dev/js/editor/hello-editor.js":
 /*!**********************************************!*\
   !*** ./assets/dev/js/editor/hello-editor.js ***!
   \**********************************************/
@@ -31,7 +31,7 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
 
 /***/ }),
 
-/***/ "./assets/dev/js/editor/hooks/ui/controls-hook.js":
+/***/ ".build/assets/dev/js/editor/hooks/ui/controls-hook.js":
 /*!********************************************************!*\
   !*** ./assets/dev/js/editor/hooks/ui/controls-hook.js ***!
   \********************************************************/
@@ -123,7 +123,7 @@ eval("function _typeof(obj) {\n  \"@babel/helpers - typeof\";\n\n  return (modul
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./assets/dev/js/editor/hello-editor.js");
+/******/ 	var __webpack_exports__ = __webpack_require__(".build/assets/dev/js/editor/hello-editor.js");
 /******/ 	
 /******/ })()
 ;

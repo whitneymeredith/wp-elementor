@@ -12,8 +12,8 @@ add_action( 'elementor/init', 'hello_elementor_settings_init' );
 
 function hello_elementor_settings_init() {
 	if ( hello_header_footer_experiment_active() ) {
-		require 'settings/settings-header.php';
-		require 'settings/settings-footer.php';
+		require 'build/settings/settings-header.php';
+		require 'build/settings/settings-footer.php';
 
 		add_action( 'elementor/kit/register_tabs', function( \Elementor\Core\Kits\Documents\Kit $kit ) {
 			$kit->register_tab( 'hello-settings-header', HelloElementor\Includes\Settings\Settings_Header::class );
@@ -131,7 +131,7 @@ add_action( 'elementor/editor/after_enqueue_scripts', function() {
 
 		wp_enqueue_script(
 			'hello-theme-editor',
-			get_template_directory_uri() . '/assets/js/hello-editor' . $suffix . '.js',
+			get_template_directory_uri() . 'build/assets/js/hello-editor' . $suffix . '.js',
 			[ 'jquery', 'elementor-editor' ],
 			HELLO_ELEMENTOR_VERSION,
 			true
@@ -139,7 +139,7 @@ add_action( 'elementor/editor/after_enqueue_scripts', function() {
 
 		wp_enqueue_style(
 			'hello-editor',
-			get_template_directory_uri() . '/editor' . $suffix . '.css',
+			get_template_directory_uri() . 'build/editor' . $suffix . '.css',
 			[],
 			HELLO_ELEMENTOR_VERSION
 		);
@@ -155,7 +155,7 @@ add_action( 'wp_enqueue_scripts', function() {
 
 	wp_enqueue_script(
 		'hello-theme-frontend',
-		get_template_directory_uri() . '/assets/js/hello-frontend' . $suffix . '.js',
+		get_template_directory_uri() . 'build/assets/js/hello-frontend' . $suffix . '.js',
 		[ 'jquery' ],
 		'1.0.0',
 		true

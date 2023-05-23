@@ -10,7 +10,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/dev/js/frontend/hello-frontend.js":
+/***/ ".build/assets/dev/js/frontend/hello-frontend.js":
 /*!**************************************************!*\
   !*** ./assets/dev/js/frontend/hello-frontend.js ***!
   \**************************************************/
@@ -27,7 +27,7 @@ eval("\n\nclass elementorHelloThemeHandler {\n  constructor() {\n    this.initSe
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./assets/dev/js/frontend/hello-frontend.js"]();
+/******/ 	__webpack_modules__[".build/assets/dev/js/frontend/hello-frontend.js"]();
 /******/ 	
 /******/ })()
 ;
