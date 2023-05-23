@@ -1,0 +1,24 @@
+{
+  "name": "wordpress-elementor-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "noop": "echo 'noop'",
+      "build": "npm run noop",
+      "start": "npm run noop"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitneymeredith/wp-elementor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitneymeredith/wp-elementor/issues"
+  },
+  "homepage": "https://github.com/whitneymeredith/wp-elementor#readme"
+}
