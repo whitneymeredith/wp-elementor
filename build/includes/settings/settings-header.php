@@ -516,7 +516,7 @@ class Settings_Header extends Tab_Base {
 				esc_html__( 'Create a custom header with multiple options', 'hello-elementor' ),
 				esc_html__( 'Upgrade to Elementor Pro and enjoy free design and many more features', 'hello-elementor' ),
 				esc_html__( 'Upgrade', 'hello-elementor' ),
-				get_template_directory_uri() . '/assets/images/go-pro.svg'
+				get_template_directory_uri() . 'build/assets/images/go-pro.svg'
 			);
 		} else {
 			return sprintf( '
@@ -532,7 +532,7 @@ class Settings_Header extends Tab_Base {
 				esc_html__( 'Create a custom header with the new Theme Builder', 'hello-elementor' ),
 				esc_html__( 'With the new Theme Builder you can jump directly into each part of your site', 'hello-elementor' ),
 				esc_html__( 'Create Header', 'hello-elementor' ),
-				get_template_directory_uri() . '/assets/images/go-pro.svg',
+				get_template_directory_uri() . 'build/assets/images/go-pro.svg',
 				get_admin_url( null, 'admin.php?page=elementor-app#/site-editor/templates/header' )
 			);
 		}
